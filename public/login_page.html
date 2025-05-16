@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yatharth Login</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="responsive/respon.css">
+    <style>
+        * {
+padding: 0;
+box-sizing: border-box;
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+        body{
+            overflow-x: hidden!important;
+        }
+
+        .left-section {
+            background: url('/img/firepic1.jpeg');
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            height: auto;
+            position: relative;
+            color: white;
+            padding: 50px;
+            height: 100vh;
+        }
+
+        .overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.5);
+        }
+
+
+        .top-image {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+        }
+
+        .top-image figure {
+            height: 100px;
+            width: 350px;
+            position: relative;
+            z-index: 99;
+
+        }
+
+        .text-content {
+            margin-top: 25px;
+            position: relative;
+            z-index: 99;
+        }
+
+        .text-content p {
+            font-size: 14px;
+            max-width: 700px;
+        }
+
+        .bottom-content {
+            margin-top: 80px;
+            position: relative;
+            z-index: 99;
+        }
+
+        .bottom-content .first-content,
+        p {
+            font-size: 14px;
+            color: rgb(170, 162, 162);
+        }
+
+        .login-box {
+            width: 532px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .login-box form .fg-btn a{
+            text-decoration: none;
+            color: #0F6C73;
+        }
+        .login-box form .fg-btn{
+            display: flex;
+            justify-content: space-between;
+        }
+        .login-box form .fg-btn .btn{
+          background-color: #0F6C73;
+          padding: 5px 12px;
+          border:  none;
+          border-radius: 3px;
+          color: white;
+        }
+        .login-box img {
+            height: 157px;
+            width: 236px;
+        }
+
+        .form-section {
+            display: flex;
+            justify-content: center;
+            position: relative;
+            background-image: url(img/bg.jpg);
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+
+        }
+
+
+        .form-section .login-box h2 {
+            font-size: 20px;
+            /* color: red; */
+            font-weight: 400;
+
+
+        }
+
+        form input {
+          min-width: 300px;
+            box-shadow: none;
+            border: none;
+            border-bottom: 1px solid rgb(0, 0, 0);
+        }
+
+        form input:focus {
+            /* border: none; */
+            outline: none;
+        }
+
+        form input:visited {
+            border-bottom: 2px solid black;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-8 col-12 col-md-6 left-section ">
+                <div class="top-image">
+                    <figure>
+                        <img src="img/yatharth logo-01.png" alt="" class="img-fluid">
+                    </figure>
+                </div>
+                <div class="overlay"></div>
+                <div class="container">
+                    <div class="text-content">
+                        <h2 class="fw-bold text-white">Yatharth Group of Institutions</h2>
+                        <p class="text-white pt-4">
+                            Yatharth Group of Institutions, Siwan was established in 2015 and is recognized by the
+                            Government of India, the Government of Bihar, UGC, NSDC, and accredited with ISO
+                            certifications. The institution provides a calm and peaceful environment conducive to
+                            students' learning.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="bottom-content ">
+                    <div class="container">
+                        <div class="first-content">
+                            <p>
+                                A market leader in end to end unified education management solution
+                            </p>
+                        </div>
+                        <div class="first-content">
+                            2025 All rights reserved and private policy
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-12 col-md-6 form-section">
+                <div class="login-box">
+                    <img src="img/Frame 125.jpg" alt="Institution Logo" class="mb-3 img-fluid">
+                    <form>
+                        <div class="mb-3">
+                            <input type="text" class=" " placeholder="login id">
+                        </div>
+                        <div class="mb-3">
+                            <input type="password" class="" placeholder="password">
+                        </div>
+                        <div class="mb-3">
+                            <div class="fg-btn">
+                                <a href="#" class="text-muted">Forgot password?</a>
+                                <button type="submit" class="btn  ">Login</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
