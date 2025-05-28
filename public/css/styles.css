@@ -1383,7 +1383,30 @@ body {
     font-size: 15px;
     font-weight: 500;
 
+
 }
+
+
+#courseDetails .course-details .container .course-content>ul {
+    width: 100%;
+    /* margin: 28px auto; */
+    text-align: left;
+    font-size: 15px;
+    font-family: "Inter", sans-serif;
+    margin: 30px -21px 1px 0px
+}
+
+
+
+#courseDetails .course-details .container .course-content li {
+    list-style: disc;
+}
+
+#courseDetails .course-details .container .course-content .career {
+    margin: 0;
+    padding: 2px 1px 66px 15px;
+}
+
 
 #courseDetails .course-details .container .course-btn .btn1 {
     margin: 0px 26px 0px 0px;
